@@ -8,6 +8,6 @@ def bubble_sort(names):
                 names[j+1] = temp
 
 names = ["John", "Alice", "Bob", "Charlie", "Emma"]
-print("Original list:", names)
+print(f"Original list: {names}")
 bubble_sort(names)
-print("Sorted list:", names)
+print(f"Sorted list: {names}")
