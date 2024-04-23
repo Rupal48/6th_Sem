@@ -2,38 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table4</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
     <style>
-        table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 10px;
+        /* Internal CSS */
+        .header {
+            text-align: center;
             margin-top: 20px;
         }
 
-        th,
-        td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        img {
+        .header img {
             height: 80px;
             width: auto;
             float: left;
@@ -44,29 +25,32 @@
             text-align: center;
             font-size: 30px;
         }
-
-        .lists {
-            text-align: center;
-        }
     </style>
 </head>
 
 <body>
-    <img src="https://bpitindia.com/wp-content/uploads/2023/04/logo1-1.png" alt="" />
-    <h3>Bhagwan Parshuram Institute of Technology</h3>
-    <h3>IT-B</h3>
+    <!-- Header Section -->
+    <div class="header">
+        <img src="https://bpitindia.com/wp-content/uploads/2023/04/logo1-1.png" alt="">
+        <h3>Bhagwan Parshuram Institute of Technology</h3>
+        <h3>IT-B</h3>
+    </div>
+    <!-- Table Section -->
     <table border="1">
         <thead>
             <tr>
-                <th colspan="5" style="text-align: center">
-                    Academic Year 2021-2025
-                </th>
+                <th colspan="5" style="text-align: center;">Academic Year 2021-2025</th>
+                Rupal Malhotra
+                IT-B
+                07220803121
             </tr>
-            <th>S No.</th>
-            <th>Subject</th>
-            <th>Subject code</th>
-            <th>Faculty</th>
-            <th>Ebook</th>
+            <tr>
+                <th>S No.</th>
+                <th>Subject</th>
+                <th>Subject code</th>
+                <th>Faculty</th>
+                <th>Ebook</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -122,8 +106,8 @@
                 <td>SE-350T</td>
                 <td class="lists"><a href="http://" target="_blank">DMD Book</a></td>
             </tr>
-        </tbody>
-    </table>
+</body>
+</table>
 </body>
 
 </html>

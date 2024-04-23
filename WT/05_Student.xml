@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<College> BPIT
+    <Student> Rupal Malhotra
+        <FirstName>Rupal</FirstName>
+        <LastName>Malhotra</LastName>
+        <EnrolmentNumber>07220803121</EnrolmentNumber>
+        <ContactNo>8178509146</ContactNo>
+        <Email>rupalmalhotra4803@gmail.com</Email>
+        <Address> 8/387
+            <City>New Delhi</City>
+            <State>Delhi</State>
+            <Zip>110091</Zip>
+        </Address>
+    </Student>
+</College>

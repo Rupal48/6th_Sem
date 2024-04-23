@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVEN ODD</title>
+</head>
+
+<body>
+    <input type="number" name="number" id="number">
+    <button id="btn">Check</button>
+    <script>
+        document.getElementById('btn').addEventListener('click', function () {
+            let number = document.getElementById('number').value;
+            number = parseInt(number);
+            if (isNaN(number)) {
+                alert('Please enter a valid number');
+                return;
+            }
+            if (number % 2 == 0) {
+                alert('Even');
+            } else {
+                alert('Odd');
+            }
+        });
+    </script>
+</body>
+
+</html>

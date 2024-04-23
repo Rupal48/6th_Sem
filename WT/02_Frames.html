@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divide, Color, and Border</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        h3 {
+            text-align: center;
+            padding-top: 120px;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            flex: 1;
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .column {
+            flex: 1;
+            border: 2px solid black;
+        }
+
+        .color1 {
+            background-color: lightblue;
+        }
+
+        .color2 {
+            background-color: lightgreen;
+        }
+
+        .color3 {
+            background-color: lightcoral;
+        }
+
+        .color4 {
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column color1">
+                <h3>Rupal Malhotra</h3>
+            </div>
+            <div class="column color2">
+                <h3>07220803121</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column color3">
+                <h3>IT-B</h3>
+            </div>
+            <div class="column color4">
+                <h3>Web Technology</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
