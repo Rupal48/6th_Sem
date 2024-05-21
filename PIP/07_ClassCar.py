@@ -13,4 +13,6 @@ class Car :
 c1 = Car("Maruti",800)
 c2 = Car("Tata","Nano")
 c1.description()
+c1.changeModel(1600)
+c1.description()
 c2.description()
