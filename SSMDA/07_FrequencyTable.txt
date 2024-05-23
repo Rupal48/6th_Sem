@@ -1,0 +1,7 @@
+Open SPSS.
+Load your dataset.
+Go to "Analyze" > "Descriptive Statistics" > "Frequencies."
+Select variables.
+Optionally, set additional options.
+Click "OK" to run the analysis.
+View the output in the output window.

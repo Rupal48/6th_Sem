@@ -1,0 +1,10 @@
+Open SPSS.
+Load your dataset.
+Go to "Analyze" > "Descriptive Statistics" > "Explore."
+Select Descriptive options and dispersion.
+Select variables.
+Optionally, set additional options.
+Click "OK" to run the analysis.
+View the output in the output window.
+Identify outliers.
+Further investigate outliers if necessary.
