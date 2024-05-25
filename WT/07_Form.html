@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebPage</title>
+    <style>
+        .input,
+        #btn,
+        textarea {
+            box-sizing: border-box;
+            padding: 10px;
+            width: 500px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="input" placeholder="name" type="text" name="name" id="name">
+    <input class="input" placeholder="email" type="email" name="email" id="email">
+    <input class="input" placeholder="phone number" type="text" name="phone" id="phone">
+    <input class="input" placeholder="gender" type="text" name="gender" id="gender">
+    <input class="input" placeholder="favorite color" type="text" name="color" id="color">
+    <button id="btn">Submit</button>
+    <textarea name="output" id="output" cols="30" rows="10"></textarea>
+    <script>
+        document.getElementById('btn').addEventListener('click', () => {
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let phone = document.getElementById('phone').value;
+            let gender = document.getElementById('gender').value;
+            let color = document.getElementById('color').value;
+            let output = document.getElementById('output');
+            if (name.trim() == '' || email.trim() == '' || phone.trim() == '' || gender.trim() == '' || color.trim() == '') {
+                alert('Please fill all fields');
+                return;
+            }
+            output.value = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nGender: ${gender}\nColor: ${color}`;
+        });
+    </script>
+</body>
+
+</html>
